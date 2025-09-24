@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><title>Menu - Sweet Delights Bakery</title><script src='https://cdn.tailwindcss.com'></script></head><body class='font-sans antialiased'><header class='bg-white/90 backdrop-blur sticky top-0 z-40 border-b border-gray-200'><nav class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between'><a href='index.html' class='flex items-center space-x-2'><span class='text-2xl font-bold font-[Dancing Script] text-[#D2691E]'>Sweet Delights</span><span class='sr-only'>Sweet Delights Bakery</span></a><div class='hidden md:flex items-center space-x-6'><a href='index.html' class='text-gray-700 hover:text-[#D2691E]'>Home</a><a href='menu.html' class='text-gray-700 hover:text-[#D2691E]'>Menu</a><a href='about.html' class='text-gray-700 hover:text-[#D2691E]'>About</a><a href='contact.html' class='text-gray-700 hover:text-[#D2691E]'>Contact</a><a href='cart.html' class='flex items-center gap-1 text-gray-700 hover:text-[#D2691E]'><span>Cart</span><span id='cart-count' class='bg-[#D2691E] text-white text-xs px-2 py-0.5 rounded ml-1'>0</span></a></div><div class='md:hidden'><button id='mobile-menu-button' class='text-gray-700'>Menu</button></div></nav><div id='mobile-menu' class='md:hidden hidden px-4 pb-4'><a href='index.html' class='block py-2 text-gray-700'>Home</a><a href='menu.html' class='block py-2 text-gray-700'>Menu</a><a href='about.html' class='block py-2 text-gray-700'>About</a><a href='contact.html' class='block py-2 text-gray-700'>Contact</a><a href='cart.html' class='block py-2 text-gray-700'>Cart</a></div></header><main class='max-w-7xl mx-auto px-4 py-8'><div class='grid grid-cols-1 lg:grid-cols-2 gap-6'><section class='bg-white p-4 rounded-lg shadow'><h2 class='text-2xl font-semibold mb-4'>Bakery Menu</h2><p class='text-sm text-gray-600 mb-4'>Click Add to Cart to build your order. Your selections will be saved in your cart.</p><div class='grid grid-cols-1 sm:grid-cols-2 gap-4'>" +
+      "<article class='bg-white rounded-lg p-4 shadow'>" +
+      "<img src='https://images.unsplash.com/photo-1733210440338-e6e62490648a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw0fHxmbGFreSUyMGNyb2lzc2FudCUyMG9uJTIwd29vZGVuJTIwYm9hcmR8ZW58MHwwfHx8MTc1ODcyMDEwNXww&ixlib=rb-4.1.0&q=80&w=1080' alt='Butter Croissant' class='w-full h-40 object-cover rounded mb-2'>" +
+      "<h3 class='font-[Lato] text-lg mb-1'>Butter Croissant</h3>" +
+      "<p class='text-sm text-gray-600 mb-2'>Flaky, buttery layers perfect with coffee.</p>" +
+      "<div class='flex items-center justify-between'>" +
+      "<span class='font-bold text-[#D2691E]'>$3.50</span>" +
+      "<button class='add-to-cart bg-[#D2691E] text-white px-3 py-2 rounded' data-id='croissant' data-name='Butter Croissant' data-price='3.50'>Add to Cart</button>" +
+      "</div>" +
+      "</article>" +
+      "<article class='bg-white rounded-lg p-4 shadow'>" +
+      "<img src='https://images.unsplash.com/photo-1757124034128-96d3776b6fe6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw5fHxhbG1vbmQlMjBjcm9pc3NhbnR8ZW58MHwwfHx8MTc1ODcxOTUyM3ww&ixlib=rb-4.1.0&q=80&w=1080' alt='Almond Croissant' class='w-full h-40 object-cover rounded mb-2'>" +
+      "<h3 class='font-[Lato] text-lg mb-1'>Almond Croissant</h3>" +
+      "<p class='text-sm text-gray-600 mb-2'>Sweet almond filling with flaky pastry.</p>" +
+      "<div class='flex items-center justify-between'>" +
+      "<span class='font-bold text-[#D2691E]'>$4.00</span>" +
+      "<button class='add-to-cart bg-[#D2691E] text-white px-3 py-2 rounded' data-id='almond-croissant' data-name='Almond Croissant' data-price='4.00'>Add to Cart</button>" +
+      "</div>" +
+      "</article>" +
+      "<article class='bg-white rounded-lg p-4 shadow'>" +
+      "<img src='https://pixabay.com/get/g55d4dc6018a30715deaf6bd529572db6fc0e097c8b8a138ed3cd19d632dfc77c222d3ffd788d0031231de10ca91aae84944a9afb328a2f3ecc5b1cc8efa7b407_640.jpg' alt='Blueberry Muffin' class='w-full h-40 object-cover rounded mb-2'>" +
+      "<h3 class='font-[Lato] text-lg mb-1'>Blueberry Muffin</h3>" +
+      "<p class='text-sm text-gray-600 mb-2'>Bright blueberries in a soft muffin.</p>" +
+      "<div class='flex items-center justify-between'>" +
+      "<span class='font-bold text-[#D2691E]'>$2.75</span>" +
+      "<button class='add-to-cart bg-[#D2691E] text-white px-3 py-2 rounded' data-id='blueberry-muffin' data-name='Blueberry Muffin' data-price='2.75'>Add to Cart</button>" +
+      "</div>" +
+      "</article>" +
+      "<article class='bg-white rounded-lg p-4 shadow'>" +
+      "<img src='https://pixabay.com/get/gd65a84535c88b391e20fce0eb048ceab32a9661262dc9db06038b63d1ef3043e6c0b8653c6282baec735e1ff5310b8d8_640.jpg' alt='Sourdough Loaf' class='w-full h-40 object-cover rounded mb-2'>" +
+      "<h3 class='font-[Lato] text-lg mb-1'>Sourdough Loaf</h3>" +
+      "<p class='text-sm text-gray-600 mb-2'>Crusty exterior, tangy interior.</p>" +
+      "<div class='flex items-center justify-between'>" +
+      "<span class='font-bold text-[#D2691E]'>$5.25</span>" +
+      "<button class='add-to-cart bg-[#D2691E] text-white px-3 py-2 rounded' data-id='sourdough-loaf' data-name='Sourdough Loaf' data-price='5.25'>Add to Cart</button>" +
+      "</div>" +
+      "</article>" +
+      "<article class='bg-white rounded-lg p-4 shadow'>" +
+      "<img src='https://pixabay.com/get/g33b469fc82b3553c1ca4cb3f8a65e8adec9bf7af71fa20e5cb35daafa8b8bc809e7fa00f54122daea4f092d254572bcc_640.jpg' alt='Chocolate Éclair' class='w-full h-40 object-cover rounded mb-2'>" +
+      "<h3 class='font-[Lato] text-lg mb-1'>Chocolate Éclair</h3>" +
+      "<p class='text-sm text-gray-600 mb-2'>Vanilla pastry filled with rich chocolate cream.</p>" +
+      "<div class='flex items-center justify-between'>" +
+      "<span class='font-bold text-[#D2691E]'>$3.75</span>" +
+      "<button class='add-to-cart bg-[#D2691E] text-white px-3 py-2 rounded' data-id='chocolate-éclair' data-name='Chocolate Éclair' data-price='3.75'>Add to Cart</button>" +
+      "</div>" +
+      "</article>" +
+      "</div>" +
+      "</section>" +
+      "<section class='bg-white p-4 rounded-lg shadow mt-6'>" +
+      "<div class='flex justify-between items-center'>" +
+      "<h3 class='font-[Lato] text-lg'>Cart Summary</h3>" +
+      "<a href='cart.html' class='text-[#D2691E] font-semibold'>Go to Cart</a>" +
+      "</div>" +
+      "</section></div></main><footer class='bg-[#FFF8DC] text-black'><div class='max-w-7xl mx-auto px-4 py-12'><div class='grid grid-cols-1 md:grid-cols-3 gap-8'><div><h3 class='text-2xl font-[Dancing Script] text-[#D2691E] mb-2'>Sweet Delights Bakery</h3><p class='text-gray-800'>A cozy neighborhood bakery offering breads, pastries, and custom cakes made fresh daily.</p></div><div><h4 class='font-semibold'>Visit</h4><p>123 Bakery Lane, Sweet Town</p><p>Mon-Sun: 7:00 AM - 7:00 PM</p></div><div><h4 class='font-semibold'>Navigate</h4><ul class='space-y-2'><li><a href='menu.html' class='text-black hover:text-[#D2691E]'>Menu</a></li><li><a href='contact.html' class='text-black hover:text-[#D2691E]'>Contact</a></li><li><a href='about.html' class='text-black hover:text-[#D2691E]'>About</a></li></ul></div></div><hr class='border-gray-600 my-6 opacity-50'><p class='text-sm text-gray-600 text-center'>© 2025 Sweet Delights Bakery. All rights reserved.</p></div></footer><script>document.addEventListener('DOMContentLoaded', function(){const btns=document.querySelectorAll('.add-to-cart');btns.forEach(b=>{b.addEventListener('click',()=>{const id=b.dataset.id;const name=b.dataset.name;const price=parseFloat(b.dataset.price);let cart=JSON.parse(localStorage.getItem('cart')||'[]');const found=cart.find(i=>i.id===id);if(found){found.qty+=1;}else{cart.push({id,name,price,qty:1});}localStorage.setItem('cart',JSON.stringify(cart));const count=cart.reduce((a,i)=>a+i.qty,0);const el=document.getElementById('cart-count');if(el){el.textContent=count;}});});const cartCount=document.getElementById('cart-count');if(cartCount){try{const cart=JSON.parse(localStorage.getItem('cart')||'[]');cartCount.textContent=cart.reduce((a,i)=>a+i.qty,0);}catch(e){cartCount.textContent='0';}}});</script></body></html>
